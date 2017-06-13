@@ -7,5 +7,6 @@ defmodule EarlybirdExtractor.Router do
 
   scope "/api", EarlybirdExtractor do
     pipe_through :api
+    get "/urlextract", UrlController, :urlextract
   end
 end
