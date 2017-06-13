@@ -1,5 +1,5 @@
-defmodule Extractor.UrlController do
-  use Extractor.Web, :controller
+defmodule EarlybirdExtractor.UrlController do
+  use EarlybirdExtractor.Web, :controller
 
   def urlextract(conn, %{"business" => business}) do
     response = HTTPotion.get business

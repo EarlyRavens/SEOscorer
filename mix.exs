@@ -37,7 +37,8 @@ defmodule EarlybirdExtractor.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:floki, "~> 0.17.0"},
-     {:httpotion, "~> 3.0.2"}]
+     {:httpotion, "~> 3.0.2"},
+     {:exrm, "~> 0.14.2"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.
