@@ -1,11 +1,11 @@
 defmodule EarlybirdExtractor.UrlView do
   use EarlybirdExtractor.Web, :view
 
-  def render("domextract.json", %{dom: dom}) do
-    %{dom: dom}
-  end
+  # def render("seoscore.json", %{score: score}) do
+  #   %{score: score}
+  # end
 
-  def render("dom.json", %{dom: dom}) do
-    %{dom: dom}
+  def render("score.json", %{score: score}) do
+    %{score: score}
   end
 end
