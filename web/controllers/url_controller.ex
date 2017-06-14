@@ -6,7 +6,7 @@ defmodule EarlybirdExtractor.UrlController do
     render(conn, "score.json", score: score)
   end
 
-    defp calculate_score(webpage) do
+  defp calculate_score(webpage) do
     dom = get_dom(webpage)
     title_score = get_title_score(dom.body)
     meta_score = get_meta_score(dom.body)
